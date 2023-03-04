@@ -210,6 +210,4 @@ public class BaseActivity extends AppCompatActivity {
             notificationManager.createNotificationChannel(channel);
         }
     }
-
-
 }

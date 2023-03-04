@@ -22,11 +22,17 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/aidl_source_output_dir/debug/out" />
-    <content url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/ap_generated_sources/debug/out" />
+    <content url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/ap_generated_sources/debug/out">
+      <sourceFolder url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/renderscript_source_output_dir/debug/out" />
-    <content url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/res/resValues/debug" />
+    <content url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/res/resValues/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/res/resValues/debug" type="java-resource" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/res/rs/debug" />
-    <content url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/source/buildConfig/debug" />
+    <content url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/source/buildConfig/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../mylibrarys/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../mylibrarys/src/debug" />
     <content url="file://$MODULE_DIR$/../../../mylibrarys/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../mylibrarys/src/main/java" isTestSource="false" />
@@ -38,13 +44,6 @@
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.5.1" level="project" />
     <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.9.0" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:4.11.0" level="project" />
@@ -52,29 +51,38 @@
     <orderEntry type="library" name="Gradle: com.loopj.android:android-async-http:1.4.9" level="project" />
     <orderEntry type="library" name="Gradle: cz.msebera.android:httpclient:4.3.6" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:1.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.5.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.5.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.core:core:1.8.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.infer.annotation:infer-annotation:0.18.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-annotations-jvm:1.3.72" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.4.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.7.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.5.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.5.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.core:core-ktx:1.8.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.5.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.2.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat-resources:1.5.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.2.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.3.6@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat-resources:1.4.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.1.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.material:material:1.6.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.cardview:cardview:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" level="project" />
@@ -98,7 +106,7 @@
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier:18.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-lite:21.3.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.work:work-runtime:2.8.0-alpha02@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.startup:startup-runtime:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.startup:startup-runtime:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk-api:20.1.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-base:20.1.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.ump:user-messaging-platform:2.0.0@aar" level="project" />
@@ -107,19 +115,28 @@
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:18.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.android:audience-network-sdk:6.11.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-extensions:2.2.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-process:2.4.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-process:2.4.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-service:2.2.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:4.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:partner-api:4.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:observable:4.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-interface:4.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-store:4.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-logs:4.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:hydra:4.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:aar-hydra:2.0.6@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:hydratransport:2.0.6@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:openvpn:4.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:openvpn-transport:2.0.6@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:4.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:partner-api:4.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:core:d8dd1f8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:service:d8dd1f8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:credentials:d8dd1f8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:dns:d8dd1f8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:probe:d8dd1f8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:logger:d8dd1f8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:networking:d8dd1f8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:reporting-constants:d8dd1f8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:observable:4.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-interface:4.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-store:4.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-logs:4.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:hydra:4.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:aar-hydra:d8dd1f8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:hydratransport:d8dd1f8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:service-transport:d8dd1f8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:openvpn:4.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.AnchorFree.hydra-vpn-android:openvpn-transport:d8dd1f8@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.work:work-runtime-ktx:2.8.0-alpha02@aar" level="project" />
   </component>
 </module>
