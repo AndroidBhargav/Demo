@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:partner-api:4.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6025f261aecd08fb858550c9b93a503e/transformed/partner-api-4.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6025f261aecd08fb858550c9b93a503e/transformed/partner-api-4.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6025f261aecd08fb858550c9b93a503e/transformed/partner-api-4.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
